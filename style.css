@@ -1,0 +1,226 @@
+html, body {
+    height: 100%;
+  }
+
+:root {
+    color: hsl(178, 100%, 50%) var(--firstcolor)
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(13, 26, 45, 1);
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+    font-family: 'Outfit', sans-serif;
+}
+
+
+.container {
+    width: 300px;
+    background-color: rgb(21 39 63);
+    height: 530px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+/*  */
+
+.container .main-image img {
+    width: 90%;
+    position: absolute;
+    top: 4%;
+    left: 5%;
+    border-radius: 5px;
+    display: block;
+}
+
+.container .main-image div {
+    background-color: hsl(178, 100%, 50%, 60%);
+    position: absolute;
+    top: 0;
+    width: 90%;
+    height: 51%;
+    top: 4%;
+    left: 5%;
+    z-index: 999;
+    opacity: 0;
+}
+
+.container .main-image div:hover {
+    opacity: 1;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -ms-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+}
+
+.container .main-image div img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 20%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+        /* titles */
+
+.container .titles h1 {
+    font-weight: 400;
+    color: white;
+    position: absolute;
+    left: 5%;
+    bottom: 33%;
+    font-size: 20px;
+}
+
+.a1 {
+    text-decoration: none;
+    font-weight: 400;
+    font-family: outfit, sans-serif;
+    color: white;
+    position: absolute;
+    left: 5%;
+    bottom: 37%;
+    font-size: 20px;
+
+}
+
+.p1 {
+    color: rgb(104 126 153);
+    position: absolute;
+    top: 66.5%;
+    left: 5%;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+    /* titles end  */
+
+    /* ethereum start  */
+
+i {
+    position: absolute;
+    top: 79%;
+    left: 5%;
+    color: hsl(178, 100%, 50%);
+}
+
+.a2 {
+    position: absolute;
+    top: 79%;
+    left: 10%;
+    font-size: 15px;
+    color: hsl(178, 100%, 50%);
+    text-decoration: none;
+}
+
+#i2 {
+    color: rgb(146 171 212);
+    position: absolute;
+    top: 79%;
+    left: 66%;
+    font-size: 12px;
+}
+
+
+.p3 {
+    position: absolute;
+    top: 79%;
+    left: 73%;
+    color: rgb(146 171 212);
+    font-size: 12px;
+}
+        /* ethereum end  */
+
+
+    /* Jules Wyvern profile */
+
+hr {
+    width: 85%;
+    text-align: left;
+    margin-left: 0;
+    position: absolute;
+    top: 85%;
+    color: rgb(27 45 69);
+    opacity: .1;
+}
+
+.img2 {
+    width: 10%;
+    position: absolute;
+    top: 90%;
+    left: 5%;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+
+.p4 {
+    position: absolute;
+    top: 91%;
+    left: 18%;
+    color: rgb(84 108 136);
+    font-weight: 600;
+}
+
+.a3 {
+    position: absolute;
+    top: 91.3%;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    left: 47%;
+    font-size: 15px;
+}
+
+.a3:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+    /* Jules Wyvern profile  end*/
+
+/* .img1:hover {
+    content: "";
+    color: hsl(178, 100%, 50%);  
+    opacity: 1;
+
+} */
+
+.a1:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.a2 {
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+
+}
+
+
+    /* media queries  */
+
+@media (max-width: 375px) {
+    
+}
